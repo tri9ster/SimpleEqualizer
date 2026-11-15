@@ -457,8 +457,8 @@ GitHub Pages に置く、紹介とダウンロードの案内のページ。載�
 
 - `.github/workflows/pages.yml` が、`main` に `site/`、`assets/`、`tools/build-site.sh` の変更が入ったとき(と手動)に、
   `tools/build-site.sh _site` でまとめて公開する。
-- リポジトリの Settings → Pages で、Source を「GitHub Actions」にするまでは公開されない。
-  非公開のリポジトリでは(無料のプランでは)有効にできないので、リポジトリを公開してから設定する(TICKET-005)。
+- リポジトリの Settings → Pages で、Source を「GitHub Actions」にしている(2026-11-15、ホームページの TICKET-005)。
+  Pages を有効にする前の実行は失敗する(公開した最初の push のときがそうだった)。失敗したら、Actions から手動で動かし直す。
 
 ### 手元で見る
 
