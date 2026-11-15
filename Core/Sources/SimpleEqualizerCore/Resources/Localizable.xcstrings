@@ -1,0 +1,544 @@
+{
+  "sourceLanguage" : "ja",
+  "strings" : {
+    "%lld チャンネルの装置には、対応していません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld-channel devices aren’t supported."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld チャンネルの装置には、対応していません。"
+          }
+        }
+      }
+    },
+    "%lld 件のプリセットを読み込みました。" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Imported %lld preset."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Imported %lld presets."
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 件のプリセットを読み込みました。"
+          }
+        }
+      }
+    },
+    "%lld 件のプリセットを読み込みました。読み込めないプリセットが %lld 件あり、読み込みませんでした。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imported %#@imported@. %#@skipped@"
+          },
+          "substitutions" : {
+            "imported" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg preset"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg presets"
+                    }
+                  }
+                }
+              }
+            },
+            "skipped" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg preset couldn’t be read and was skipped."
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg presets couldn’t be read and were skipped."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld 件のプリセットを読み込みました。読み込めないプリセットが %2$lld 件あり、読み込みませんでした。"
+          }
+        }
+      }
+    },
+    "SimpleEqualizer プリセット.json" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SimpleEqualizer Presets.json"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SimpleEqualizer プリセット.json"
+          }
+        }
+      }
+    },
+    "「フラット」は、変えたり消したりできません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Flat” can’t be changed or deleted."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「フラット」は、変えたり消したりできません。"
+          }
+        }
+      }
+    },
+    "このファイルには、プリセットが入っていません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This file contains no presets."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルには、プリセットが入っていません。"
+          }
+        }
+      }
+    },
+    "このファイルには、読み込めるプリセットがありません。読み込めないプリセットが %lld 件あり、読み込みませんでした。" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "This file has no presets that can be imported. %lld preset couldn’t be read and was skipped."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "This file has no presets that can be imported. %lld presets couldn’t be read and were skipped."
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルには、読み込めるプリセットがありません。読み込めないプリセットが %lld 件あり、読み込みませんでした。"
+          }
+        }
+      }
+    },
+    "このファイルは、プリセットのファイルとして読めませんでした。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This file couldn’t be read as a presets file."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルは、プリセットのファイルとして読めませんでした。"
+          }
+        }
+      }
+    },
+    "このファイルは、大きすぎるか、プリセットの数が多すぎるので、読み込めません(%lld 件まで)。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This file is too large or contains too many presets, so it can’t be imported (up to %lld presets)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルは、大きすぎるか、プリセットの数が多すぎるので、読み込めません(%lld 件まで)。"
+          }
+        }
+      }
+    },
+    "このファイルは、新しい版のアプリが書き出したものなので、読み込めません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This file was exported by a newer version of the app, so it can’t be imported."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルは、新しい版のアプリが書き出したものなので、読み込めません。"
+          }
+        }
+      }
+    },
+    "フラット" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flat"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フラット"
+          }
+        }
+      }
+    },
+    "プリセット" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preset"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセット"
+          }
+        }
+      }
+    },
+    "プリセットが見つかりません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The preset can’t be found."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットが見つかりません。"
+          }
+        }
+      }
+    },
+    "プリセットのファイルは、新しい版のアプリが保存したものなので、「フラット」だけで始めました。元のファイルを守るため、プリセットの変更は保存しません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The presets file was saved by a newer version of the app, so the app started with only “Flat”. To protect the original file, changes to presets won’t be saved."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットのファイルは、新しい版のアプリが保存したものなので、「フラット」だけで始めました。元のファイルを守るため、プリセットの変更は保存しません。"
+          }
+        }
+      }
+    },
+    "プリセットのファイルを読めなかったので、「フラット」だけで始めました。元のファイルを守るため、プリセットの変更は保存しません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The presets file couldn’t be read, so the app started with only “Flat”. To protect the original file, changes to presets won’t be saved."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットのファイルを読めなかったので、「フラット」だけで始めました。元のファイルを守るため、プリセットの変更は保存しません。"
+          }
+        }
+      }
+    },
+    "プリセットのファイルを読めなかったので、「フラット」だけで始めました。読めなかったファイルは、別名で残してあります。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The presets file couldn’t be read, so the app started with only “Flat”. The unreadable file was kept under a different name."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットのファイルを読めなかったので、「フラット」だけで始めました。読めなかったファイルは、別名で残してあります。"
+          }
+        }
+      }
+    },
+    "プリセットのファイルを読めなかったので、元のファイルを守るため、プリセットを変えられません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The presets file couldn’t be read, so presets can’t be changed, to protect the original file."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットのファイルを読めなかったので、元のファイルを守るため、プリセットを変えられません。"
+          }
+        }
+      }
+    },
+    "出力が %lld 本ある装置には、対応していません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devices with %lld output streams aren’t supported."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出力が %lld 本ある装置には、対応していません。"
+          }
+        }
+      }
+    },
+    "前回の設定は、新しい版のアプリが保存したものなので、音量 %lld で始めました。上書きしないよう、今回の設定は保存しません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The previous settings were saved by a newer version of the app, so the app started at volume %lld. To avoid overwriting them, settings won’t be saved this time."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回の設定は、新しい版のアプリが保存したものなので、音量 %lld で始めました。上書きしないよう、今回の設定は保存しません。"
+          }
+        }
+      }
+    },
+    "前回の設定を読めなかったので、音量 %lld で始めました。元のファイルを守るため、今回の設定は保存しません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The previous settings couldn’t be read, so the app started at volume %lld. To protect the original file, settings won’t be saved this time."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回の設定を読めなかったので、音量 %lld で始めました。元のファイルを守るため、今回の設定は保存しません。"
+          }
+        }
+      }
+    },
+    "前回の設定を読めなかったので、音量 %lld で始めました。読めなかったファイルは、別名で残してあります。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The previous settings couldn’t be read, so the app started at volume %lld. The unreadable file was kept under a different name."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回の設定を読めなかったので、音量 %lld で始めました。読めなかったファイルは、別名で残してあります。"
+          }
+        }
+      }
+    },
+    "同じプリセットが、すでに一覧にあります。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This preset is already in the list."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じプリセットが、すでに一覧にあります。"
+          }
+        }
+      }
+    },
+    "同じ名前のプリセットがあります。別の名前にしてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A preset with this name already exists. Choose a different name."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じ名前のプリセットがあります。別の名前にしてください。"
+          }
+        }
+      }
+    },
+    "名前は %lld 文字までにしてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Names can be up to %lld characters long."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前は %lld 文字までにしてください。"
+          }
+        }
+      }
+    },
+    "名前を入れてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a name."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前を入れてください。"
+          }
+        }
+      }
+    },
+    "装置のサンプリング周波数を読めませんでした。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t read the device’s sample rate."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "装置のサンプリング周波数を読めませんでした。"
+          }
+        }
+      }
+    },
+    "読めないプリセットが %lld 件ありました。元のファイルの写しを、別名で残してあります。" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld preset couldn’t be read. A copy of the original file was kept under a different name."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld presets couldn’t be read. A copy of the original file was kept under a different name."
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読めないプリセットが %lld 件ありました。元のファイルの写しを、別名で残してあります。"
+          }
+        }
+      }
+    },
+    "読めないプリセットが %lld 件ありました。元のファイルを守るため、プリセットの変更は保存しません。" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld preset couldn’t be read. To protect the original file, changes to presets won’t be saved."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld presets couldn’t be read. To protect the original file, changes to presets won’t be saved."
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読めないプリセットが %lld 件ありました。元のファイルを守るため、プリセットの変更は保存しません。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

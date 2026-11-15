@@ -1,0 +1,14 @@
+// 署名の設定の見本。
+// このファイルを Signing.xcconfig という名前で写し、使う行の // を外して、自分の値を入れる。
+// Signing.xcconfig がなくてもビルドできる(その場かぎりの署名になる)。
+// Signing.xcconfig は Git に入れない(個人の情報を含むため)。
+// アプリの識別子(PRODUCT_BUNDLE_IDENTIFIER)は、ここには書かない(Config/Project.xcconfig の値を使う)。
+//
+// その場かぎりの署名では、ビルドのたびに macOS の許可(システム音声の録音、アクセシビリティ)が外れる。
+// 自分の証明書で署名すると、許可が残る。値は一度決めたら変えない。
+// CODE_SIGN_IDENTITY = Apple Development
+// DEVELOPMENT_TEAM = XXXXXXXXXX
+
+// 配布物(tools/make-release.sh)の署名に使う、自己署名の証明書の名前。配布物を作る人だけが書く。
+// 証明書の名前は、配布物を受け取った人が読める。個人の情報を入れない。
+// RELEASE_SIGN_IDENTITY = SimpleEqualizer Release

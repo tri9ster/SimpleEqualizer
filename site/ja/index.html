@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SimpleEqualizer</title>
+    <meta name="description" content="macOS では変えられない出力先の音量をアプリの側で変え、10 バンドのイコライザーを掛けられる、メニューバー常駐の Mac アプリです。">
+    <link rel="alternate" hreflang="en" href="https://tri9ster.github.io/SimpleEqualizer/">
+    <link rel="alternate" hreflang="ja" href="https://tri9ster.github.io/SimpleEqualizer/ja/">
+    <link rel="alternate" hreflang="x-default" href="https://tri9ster.github.io/SimpleEqualizer/">
+    <link rel="icon" href="../assets/readme/app-icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="topbar" aria-label="言語">
+            <a href="../" hreflang="en" lang="en">English</a>
+            <span aria-current="page">日本語</span>
+        </nav>
+
+        <header class="hero">
+            <img class="icon" src="../assets/readme/app-icon.svg" alt="">
+            <h1>SimpleEqualizer</h1>
+            <p class="lead">macOS では音量を変えられない出力先でも、音量を変えて、10 バンドのイコライザーを掛けられます。</p>
+            <div class="actions">
+                <a class="button primary" href="https://github.com/tri9ster/SimpleEqualizer/releases/latest">ダウンロード</a>
+                <a class="button" href="https://github.com/tri9ster/SimpleEqualizer">GitHub で見る</a>
+            </div>
+            <p class="requirement">macOS 27 以降 · Apple シリコンの Mac · 無料(MIT ライセンス)</p>
+        </header>
+
+        <img class="screenshot" src="../assets/main_window.png" width="1980" height="1072" alt="10 バンドのスライダーが並ぶイコライザーのウィンドウと、出力先、音量、ラウドネス、プリセットが並ぶメニューバーのポップアップ。">
+
+        <section>
+            <h2>何ができるか</h2>
+            <p>
+                Mac から光デジタル出力(USB SPDIF Adapter)などを通してスピーカーに音を出すときは、macOS では音量を変えられず、スピーカーから最大音量のまま音が出ます。SimpleEqualizer は、その音量をアプリの側で変えるための、メニューバー常駐アプリです。イコライザーも掛けられます。</p>
+            <img class="figure" src="../assets/readme/overview.ja.svg" width="800" height="416" alt="アプリがないときは、macOS では音量を変えられず、スピーカーから最大音量のまま音が出ます。SimpleEqualizer があると、アプリの側で音量を変え、イコライザーも掛けられます。">
+            <ul class="features">
+                <li><strong>音量と消音</strong><span>メニューバーのポップアップで音量を変えます。音量は出力先ごとに覚えます。</span></li>
+                <li><strong>音量キー</strong><span>キーボードの音量キー(上げる、下げる、消音)を、ふだんどおりに使えます。</span></li>
+                <li><strong>10 バンドのイコライザー</strong><span>31 Hz〜16 kHz を、−10〜+10 dB の間で、0.5 dB ずつ変えられます。</span></li>
+                <li><strong>ラウドネス</strong><span>音量を下げるほど低音と高音を持ち上げ、小さな音でも聞こえやすくします。</span></li>
+                <li><strong>プリセット</strong><span>イコライザーの設定に名前をつけて保存し、切り替えられます。書き出しと読み込みもできます。</span></li>
+                <li><strong>日本語と英語</strong><span>画面は、日本語と英語に対応しています。</span></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>使う前に</h2>
+            <div class="warning">
+                <p><strong>起動する前と、終了する前に、スピーカー側の音量を下げてください。</strong></p>
+                <p>
+                    アプリが音量を下げているのは、アプリが動いている間だけです。終了したとき、「音声の加工」を切ったとき、アプリが落ちたときは、音が加工なしの最大音量に戻ります。初めて使うときの音量は 100(元の音量のまま)です。起動したあと、ポップアップで下げてください。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>入れ方</h2>
+            <ol>
+                <li><a href="https://github.com/tri9ster/SimpleEqualizer/releases/latest">Releases</a> から、<code>SimpleEqualizer-&lt;版&gt;.dmg</code> をダウンロードして開きます。</li>
+                <li>SimpleEqualizer を「Applications」フォルダへドラッグします。</li>
+            </ol>
+
+            <h3>はじめて開くとき</h3>
+            <p>
+                このアプリは、Apple の公証を受けていません(作者が Apple の有料の開発者プログラムに入っていないため)。そのため、はじめて開くときと、新しい版に入れ替えたときに、macOS に止められます。次の手順で開いてください。</p>
+            <ol>
+                <li>「アプリケーション」フォルダの SimpleEqualizer をダブルクリックします。</li>
+                <li>「"SimpleEqualizer.app" は開いていません」と出たら、「完了」を押します(「ゴミ箱に入れる」は押さないでください)。</li>
+                <li>システム設定を開き、「プライバシーとセキュリティ」を選びます。</li>
+                <li>
+                    下のほうの「セキュリティ」の欄に、「お使いの Mac を保護するために "SimpleEqualizer.app" がブロックされました。」と出ています。その右の「このまま開く」を押し、Mac のパスワードを入れます。</li>
+                <li>もう一度確かめる画面が出たら、「このまま開く」を押します。</li>
+            </ol>
+            <img class="figure" src="../assets/readme/privacy-security.ja.svg" width="560" height="350" alt="システム設定の画面。左の一覧で「プライバシーとセキュリティ」を選び(手順 3)、右の「セキュリティ」の欄の「このまま開く」を押します(手順 4)。">
+
+            <h3>許可を出す</h3>
+            <ul>
+                <li><strong>システム音声の録音</strong>: 音を加工するために要ります。初めて起動したときに求められるので、許可してください。</li>
+                <li><strong>アクセシビリティ</strong>: キーボードの音量キーを使うために要ります。</li>
+            </ul>
+            <img class="figure" src="../assets/readme/volume-keys.svg" width="360" height="138" alt="キーボードの上の段の、消音(F10)、音量を下げる(F11)、音量を上げる(F12)のキー">
+
+            <p class="note">
+                ポップアップ、イコライザー、プリセット、設定の使い方は、<a href="https://github.com/tri9ster/SimpleEqualizer/blob/main/README.ja.md">README</a> をご覧ください。</p>
+        </section>
+
+        <section class="disclaimer">
+            <h2>免責事項</h2>
+            <ul>
+                <li>本アプリケーションを利用することで発生する損害に対しては、作者は一切の責任を負いません。</li>
+                <li>不具合や操作の誤りで、大きな音が出ることがあります。スピーカーや耳を傷めないよう、スピーカー側の音量を下げて使ってください。</li>
+                <li>このアプリは、動くことや、目的に合うことを保証しません。</li>
+                <li>「このまま開く」で開くかどうかは、ご自身で判断してください。ソースコードは公開しています。</li>
+                <li>質問への回答、不具合の修正、新しい macOS への対応は約束しません。予告なく公開をやめることがあります。</li>
+                <li>このアプリは個人が作ったもので、Apple Inc. とは関係がありません。Apple、Mac、macOS は、Apple Inc. の商標です。</li>
+            </ul>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a href="https://github.com/tri9ster/SimpleEqualizer">ソースコード</a></li>
+                <li><a href="https://github.com/tri9ster/SimpleEqualizer/blob/main/README.ja.md">README</a></li>
+                <li><a href="https://github.com/tri9ster/SimpleEqualizer/releases">Releases</a></li>
+                <li><a href="https://github.com/tri9ster/SimpleEqualizer/blob/main/LICENSE">MIT ライセンス</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

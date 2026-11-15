@@ -1,0 +1,68 @@
+SimpleEqualizer のはじめかた
+==============================
+
+(English follows.)
+
+このアプリは、Apple の公証を受けていません(作者が Apple の有料の開発者プログラムに入っていないため)。
+そのため、はじめて開くときと、新しい版に入れ替えたときに、macOS に止められます。次の手順で開いてください。
+
+■ 入れる
+1. SimpleEqualizer を「Applications」フォルダへドラッグします。
+
+■ はじめて開く
+1. 「アプリケーション」フォルダの SimpleEqualizer をダブルクリックします。
+2. 「"SimpleEqualizer.app" は開いていません」と出たら、「完了」を押します(「ゴミ箱に入れる」は押さないでください)。
+3. システム設定を開き、「プライバシーとセキュリティ」を選びます。
+4. 下のほうの「セキュリティ」の欄に、「お使いの Mac を保護するために "SimpleEqualizer.app" がブロックされました。」と出ています。
+   その右の「このまま開く」を押し、Mac のパスワードを入れます。
+5. もう一度確かめる画面が出たら、「このまま開く」を押します。
+
+■ 許可を出す
+- システム音声の録音: 音を加工するために要ります。許可を求められたら、許可してください。
+- アクセシビリティ: キーボードの音量キーを使うために要ります。
+  メニューバーの SimpleEqualizer から「許可を求める…」を押し、システム設定の「アクセシビリティ」でオンにします。
+  一覧に SimpleEqualizer が出ていないときは、一覧の下の「+」を押し、「アプリケーション」フォルダの SimpleEqualizer を選んで足します。
+
+■ 新しい版に入れ替えたとき
+- 「はじめて開く」の手順が、もう一度要ります。
+- 許可(システム音声の録音、アクセシビリティ)は、出し直さなくて済みます。
+
+■ 音を出すときの注意
+- はじめて試すときは、スピーカー側の音量を下げてください。
+- アプリを終了すると、音は加工なしの、元の音量に戻ります。
+
+くわしくは、GitHub のリポジトリの README を見てください。
+
+
+How to start SimpleEqualizer
+============================
+
+This app is not notarized by Apple (the author is not a member of Apple's paid Developer Program).
+macOS blocks it the first time you open it and each time you install a new version. Open it as follows.
+
+■ Install
+1. Drag SimpleEqualizer to the Applications folder.
+
+■ Open it for the first time
+1. Double-click SimpleEqualizer in the Applications folder.
+2. When you see '"SimpleEqualizer.app" Not Opened', click "Done" (do not click "Move to Trash").
+3. Open System Settings and choose "Privacy & Security".
+4. Near the bottom, in the "Security" section, you will see '"SimpleEqualizer.app" was blocked to protect your Mac.'
+   Click "Open Anyway" next to it and enter your Mac password.
+5. If macOS asks again, click "Open Anyway".
+
+■ Permissions
+- System Audio Recording: needed to process the sound. Allow it when asked.
+- Accessibility: needed to use the volume keys on the keyboard.
+  Choose the permission request item in the SimpleEqualizer menu, then turn SimpleEqualizer on under "Accessibility" in System Settings.
+  If SimpleEqualizer is not in the list, click "+" below the list and add SimpleEqualizer from the Applications folder.
+
+■ When you install a new version
+- You need to do "Open it for the first time" again.
+- You do not need to grant the permissions (System Audio Recording, Accessibility) again.
+
+■ Safety
+- Turn the volume down on your speakers the first time you try it.
+- When you quit the app, the sound goes back to the original, unprocessed volume.
+
+See the README in the GitHub repository for details.

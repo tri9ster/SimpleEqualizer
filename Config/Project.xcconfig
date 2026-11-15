@@ -1,0 +1,31 @@
+// プロジェクト全体のビルド設定。
+PRODUCT_NAME = SimpleEqualizer
+MARKETING_VERSION = 0.1
+CURRENT_PROJECT_VERSION = 1
+MACOSX_DEPLOYMENT_TARGET = 27.0
+SWIFT_VERSION = 6.0
+
+// アプリのアイコン(SimpleEqualizer/Assets.xcassets の中の名前)。
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+
+GENERATE_INFOPLIST_FILE = YES
+INFOPLIST_FILE = Config/Info.plist
+
+// 画面の文言は、日本語で書き、英語の訳を文字列カタログ(SimpleEqualizer/*.xcstrings)に置く(配布の TICKET-005)。
+// ビルドのときに、コードから文言を取り出す(カタログの見出しを、コードと合わせるため)。
+SWIFT_EMIT_LOC_STRINGS = YES
+LOCALIZATION_PREFERS_STRING_CATALOGS = YES
+DEVELOPMENT_LANGUAGE = en
+
+// サンドボックスは使わない(App Store には出さず、GitHub で配るため。仕様書 7.1)。
+ENABLE_APP_SANDBOX = NO
+CODE_SIGN_STYLE = Manual
+
+// アプリの識別子。配る前に、公開してよい値に変えた(2026-10-18、配布の TICKET-006)。
+// 変えると、macOS からは別のアプリに見え、許可を出し直すことになる。配ったあとは変えない。
+PRODUCT_BUNDLE_IDENTIFIER = io.github.tri9ster.SimpleEqualizer
+
+// 署名の初期値は、その場かぎりの署名(ソースからビルドする人が、証明書なしでビルドできるようにする)。
+// 自分の証明書で署名するときは、Git 管理外の Signing.xcconfig で上書きする(見本は Signing.xcconfig.example)。
+CODE_SIGN_IDENTITY = -
+#include? "Signing.xcconfig"

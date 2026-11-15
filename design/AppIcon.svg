@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <linearGradient id="background-gradient" x1="512" y1="100" x2="512" y2="924" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3D4350"/>
+      <stop offset="1" stop-color="#1B1E25"/>
+    </linearGradient>
+  </defs>
+
+  <rect id="background" x="100" y="100" width="824" height="824" rx="185" fill="url(#background-gradient)"/>
+
+  <g id="slider-left">
+    <line id="track" x1="322" y1="300" x2="322" y2="724" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="36" stroke-linecap="round"/>
+    <line id="level" x1="322" y1="512" x2="322" y2="724" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round"/>
+    <circle id="knob" cx="322" cy="512" r="62" fill="#FFFFFF"/>
+  </g>
+
+  <g id="slider-center">
+    <line id="track" x1="512" y1="300" x2="512" y2="724" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="36" stroke-linecap="round"/>
+    <line id="level" x1="512" y1="400" x2="512" y2="724" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round"/>
+    <circle id="knob" cx="512" cy="400" r="62" fill="#FFFFFF"/>
+  </g>
+
+  <g id="slider-right">
+    <line id="track" x1="702" y1="300" x2="702" y2="724" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="36" stroke-linecap="round"/>
+    <line id="level" x1="702" y1="624" x2="702" y2="724" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round"/>
+    <circle id="knob" cx="702" cy="624" r="62" fill="#FFFFFF"/>
+  </g>
+</svg>

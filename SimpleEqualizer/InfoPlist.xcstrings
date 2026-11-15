@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "ja",
+  "strings" : {
+    "NSAudioCaptureUsageDescription" : {
+      "comment" : "「システム音声の録音」の許可を求めるときに、macOS が出す説明。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used to capture the sound your Mac plays, adjust its volume and equalizer, and play it back."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mac から出る音を取り出し、音量とイコライザーを調整して出力するために使います。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

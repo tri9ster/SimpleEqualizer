@@ -1,0 +1,2518 @@
+{
+  "sourceLanguage" : "ja",
+  "strings" : {
+    "%@ デシベル" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ decibels"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ デシベル"
+          }
+        }
+      }
+    },
+    "%@ ヘルツ" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ hertz"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ヘルツ"
+          }
+        }
+      }
+    },
+    "%@(加工できません)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (can’t process)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@(加工できません)"
+          }
+        }
+      }
+    },
+    "%@に失敗しました(エラー %d)。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed while %@ (error %d)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@に失敗しました(エラー %2$d)。"
+          }
+        }
+      }
+    },
+    "%lld Hz / %uch / %u ビット %@ / %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Hz / %uch / %u-bit %@ / %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld Hz / %2$uch / %3$u ビット %4$@ / %5$@"
+          }
+        }
+      }
+    },
+    "(名前のない装置)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Unnamed device)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(名前のない装置)"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "SimpleEqualizer の設定" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SimpleEqualizer Settings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SimpleEqualizer の設定"
+          }
+        }
+      }
+    },
+    "SimpleEqualizer を終了しますか?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit SimpleEqualizer?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SimpleEqualizer を終了しますか?"
+          }
+        }
+      }
+    },
+    "SimpleEqualizer(音声を加工していません)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SimpleEqualizer (not processing audio)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SimpleEqualizer(音声を加工していません)"
+          }
+        }
+      }
+    },
+    "macOS の音量で変える出力先で、イコライザーで上げているときに働きます。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Works on outputs whose volume is set with the macOS volume, when the equalizer boosts any band."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS の音量で変える出力先で、イコライザーで上げているときに働きます。"
+          }
+        }
+      }
+    },
+    "「%@」の加工を始められませんでした。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t start processing “%@”."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」の加工を始められませんでした。"
+          }
+        }
+      }
+    },
+    "「%@」は、対応していない出力先です。%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” isn’t a supported output. %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "「%1$@」は、対応していない出力先です。%2$@"
+          }
+        }
+      }
+    },
+    "「%@」への変更を保存していません" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changes to “%@” haven’t been saved"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」への変更を保存していません"
+          }
+        }
+      }
+    },
+    "「%@」を、すべて 0 dB で上書きしますか?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overwrite “%@” with all bands at 0 dB?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」を、すべて 0 dB で上書きしますか?"
+          }
+        }
+      }
+    },
+    "「%@」を削除しますか?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete “%@”?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」を削除しますか?"
+          }
+        }
+      }
+    },
+    "いまの一覧は、アプリを終えるまでは使えます。終了のときに、もう一度保存を試します。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can keep using the current list until you quit the app. The app will try to save again when it quits."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いまの一覧は、アプリを終えるまでは使えます。終了のときに、もう一度保存を試します。"
+          }
+        }
+      }
+    },
+    "いまの出力先" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current output"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いまの出力先"
+          }
+        }
+      }
+    },
+    "いまは、上げているバンドがないので、下げていません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not lowering the volume, because no band is boosted right now."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いまは、上げているバンドがないので、下げていません。"
+          }
+        }
+      }
+    },
+    "このまま書き出す" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export Anyway"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このまま書き出す"
+          }
+        }
+      }
+    },
+    "この出力先の音量は、macOS の音量で変えます。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the macOS volume to change the volume of this output."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この出力先の音量は、macOS の音量で変えます。"
+          }
+        }
+      }
+    },
+    "この出力先は、macOS では音量を変えられないので、アプリが音量を変えます。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS can’t change the volume of this output, so the app changes it."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この出力先は、macOS では音量を変えられないので、アプリが音量を変えます。"
+          }
+        }
+      }
+    },
+    "この出力先は、macOS の音量で変えます。アプリの音量、消音、ラウドネスは使えません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The volume of this output is changed with the macOS volume. The app’s volume, mute, and loudness aren’t available."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この出力先は、macOS の音量で変えます。アプリの音量、消音、ラウドネスは使えません。"
+          }
+        }
+      }
+    },
+    "この許可の状態は、アプリからは調べられません。音を取り出せているかで判断しています。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app can’t check this permission directly. It judges by whether it can capture sound."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この許可の状態は、アプリからは調べられません。音を取り出せているかで判断しています。"
+          }
+        }
+      }
+    },
+    "できませんでした" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t Complete the Action"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "できませんでした"
+          }
+        }
+      }
+    },
+    "ほかのアプリが音を出していますが、SimpleEqualizer は音を取り出せていません。\n「システム音声の録音」の許可がない可能性があります。許可がないと、音量を変えられません。\n\n設定を開き、「システムオーディオ録音のみ」の一覧で SimpleEqualizer を許可してください。\n許可したあとは、SimpleEqualizer を起動し直してください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other apps are playing sound, but SimpleEqualizer can’t capture it.\nThe app may not have permission for system audio recording. Without it, the app can’t change the volume.\n\nOpen Settings and allow SimpleEqualizer in the “System Audio Recording Only” list.\nAfter allowing it, restart SimpleEqualizer."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ほかのアプリが音を出していますが、SimpleEqualizer は音を取り出せていません。\n「システム音声の録音」の許可がない可能性があります。許可がないと、音量を変えられません。\n\n設定を開き、「システムオーディオ録音のみ」の一覧で SimpleEqualizer を許可してください。\n許可したあとは、SimpleEqualizer を起動し直してください。"
+          }
+        }
+      }
+    },
+    "まだ分かりません(音が流れていません)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown yet (no sound is playing)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ分かりません(音が流れていません)"
+          }
+        }
+      }
+    },
+    "アクセシビリティの許可" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accessibility permission"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アクセシビリティの許可"
+          }
+        }
+      }
+    },
+    "アプリの音量調整" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App volume control"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリの音量調整"
+          }
+        }
+      }
+    },
+    "アプリを起動し直すと、切り替わります。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The language changes the next time you open the app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを起動し直すと、切り替わります。"
+          }
+        }
+      }
+    },
+    "イコライザー" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equalizer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イコライザー"
+          }
+        }
+      }
+    },
+    "イコライザー: 入(押すと切る)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equalizer: On (click to turn off)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イコライザー: 入(押すと切る)"
+          }
+        }
+      }
+    },
+    "イコライザー: 切(押すと入れる)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equalizer: Off (click to turn on)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イコライザー: 切(押すと入れる)"
+          }
+        }
+      }
+    },
+    "イコライザーが切なので、下げていません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not lowering the volume, because the equalizer is off."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イコライザーが切なので、下げていません。"
+          }
+        }
+      }
+    },
+    "イコライザーを開く" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Equalizer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イコライザーを開く"
+          }
+        }
+      }
+    },
+    "キャンセル" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
+        }
+      }
+    },
+    "キーボードの音量キーで、アプリの音量を変える" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change the app’s volume with the keyboard volume keys"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボードの音量キーで、アプリの音量を変える"
+          }
+        }
+      }
+    },
+    "キーボードの音量キーを使うには、「アクセシビリティ」の許可が必要です。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To use the keyboard volume keys, the app needs Accessibility permission."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボードの音量キーを使うには、「アクセシビリティ」の許可が必要です。"
+          }
+        }
+      }
+    },
+    "キーボードの音量キーを受け取れませんでした。アプリを起動し直してください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t receive the keyboard volume keys. Restart the app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボードの音量キーを受け取れませんでした。アプリを起動し直してください。"
+          }
+        }
+      }
+    },
+    "コールバックの登録" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "registering the callback"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コールバックの登録"
+          }
+        }
+      }
+    },
+    "システムの設定に合わせる" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use System Setting"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システムの設定に合わせる"
+          }
+        }
+      }
+    },
+    "システム設定の「ログイン項目」で、SimpleEqualizer を許可してください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow SimpleEqualizer in Login Items in System Settings."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システム設定の「ログイン項目」で、SimpleEqualizer を許可してください。"
+          }
+        }
+      }
+    },
+    "システム音声の録音" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System Audio Recording"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システム音声の録音"
+          }
+        }
+      }
+    },
+    "タップの作成" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "creating the tap"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップの作成"
+          }
+        }
+      }
+    },
+    "タップの形式の取得" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reading the tap’s format"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップの形式の取得"
+          }
+        }
+      }
+    },
+    "チャンネル別" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "non-interleaved"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チャンネル別"
+          }
+        }
+      }
+    },
+    "ファイルを書けませんでした。\n%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t write the file.\n%@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルを書けませんでした。\n%@"
+          }
+        }
+      }
+    },
+    "フラットに戻す" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset to Flat"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フラットに戻す"
+          }
+        }
+      }
+    },
+    "プリセット" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preset"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセット"
+          }
+        }
+      }
+    },
+    "プリセット(押すと選ぶ)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preset (click to choose)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセット(押すと選ぶ)"
+          }
+        }
+      }
+    },
+    "プリセットの名前" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preset name"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットの名前"
+          }
+        }
+      }
+    },
+    "プリセットの書き出し" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export Presets"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットの書き出し"
+          }
+        }
+      }
+    },
+    "プリセットの読み込み" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import Presets"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットの読み込み"
+          }
+        }
+      }
+    },
+    "プリセットを、ファイルに保存できませんでした" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t save presets to the file"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットを、ファイルに保存できませんでした"
+          }
+        }
+      }
+    },
+    "プリセットを保存できませんでした。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t save presets."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットを保存できませんでした。"
+          }
+        }
+      }
+    },
+    "ラウドネス" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loudness"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラウドネス"
+          }
+        }
+      }
+    },
+    "ラウドネス: 入(押すと切る)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loudness: On (click to turn off)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラウドネス: 入(押すと切る)"
+          }
+        }
+      }
+    },
+    "ラウドネス: 切(押すと入れる)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loudness: Off (click to turn on)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラウドネス: 切(押すと入れる)"
+          }
+        }
+      }
+    },
+    "ラウドネスの強さ" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loudness amount"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラウドネスの強さ"
+          }
+        }
+      }
+    },
+    "ラウドネスの強さ(切の間は動かせない。ラウドネスのボタンで入れる)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loudness amount (can’t be changed while loudness is off; turn it on with the loudness button)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラウドネスの強さ(切の間は動かせない。ラウドネスのボタンで入れる)"
+          }
+        }
+      }
+    },
+    "ログイン時に起動する" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open at login"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン時に起動する"
+          }
+        }
+      }
+    },
+    "上げているバンドがあるため、音を抑えています。音がつぶれて聞こえるときは、上げているバンドを下げてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The sound is being limited because some bands are boosted. If it sounds squashed, lower the boosted bands."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上げているバンドがあるため、音を抑えています。音がつぶれて聞こえるときは、上げているバンドを下げてください。"
+          }
+        }
+      }
+    },
+    "上げているバンドがあるため、音を抑えています。音がつぶれて聞こえるときは、上げているバンドを下げるか、「増幅した分だけ、全体を自動で下げる」を入にしてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The sound is being limited because some bands are boosted. If it sounds squashed, lower the boosted bands or turn on “Automatically lower the overall volume by the boost”."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上げているバンドがあるため、音を抑えています。音がつぶれて聞こえるときは、上げているバンドを下げるか、「増幅した分だけ、全体を自動で下げる」を入にしてください。"
+          }
+        }
+      }
+    },
+    "上書き" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overwrite"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上書き"
+          }
+        }
+      }
+    },
+    "上書きすると、「%@」に保存してあった値は消えます。元に戻せません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The values saved in “%@” will be lost. This can’t be undone."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上書きすると、「%@」に保存してあった値は消えます。元に戻せません。"
+          }
+        }
+      }
+    },
+    "交互" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "interleaved"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "交互"
+          }
+        }
+      }
+    },
+    "保存" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存"
+          }
+        }
+      }
+    },
+    "保存していない変更を捨てて、選んでいるプリセットの値に戻します。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discards unsaved changes and returns to the values of the selected preset."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存していない変更を捨てて、選んでいるプリセットの値に戻します。"
+          }
+        }
+      }
+    },
+    "保存できませんでした" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t Save"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存できませんでした"
+          }
+        }
+      }
+    },
+    "入" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入"
+          }
+        }
+      }
+    },
+    "入力 %lld 本 / 出力 %lld 本" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld input streams / %lld output streams"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "入力 %1$lld 本 / 出力 %2$lld 本"
+          }
+        }
+      }
+    },
+    "全部のプリセットを、1つのファイルに書き出します。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exports all presets to a single file."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部のプリセットを、1つのファイルに書き出します。"
+          }
+        }
+      }
+    },
+    "出力先" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Output"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出力先"
+          }
+        }
+      }
+    },
+    "出力先(押すと選ぶ)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Output (click to choose)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出力先(押すと選ぶ)"
+          }
+        }
+      }
+    },
+    "出力先が見つからないので、加工していません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No output was found, so audio isn’t being processed."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出力先が見つからないので、加工していません。"
+          }
+        }
+      }
+    },
+    "出力先が見つかりません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No output was found."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出力先が見つかりません。"
+          }
+        }
+      }
+    },
+    "出力先を切り替えられませんでした。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t switch the output."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出力先を切り替えられませんでした。"
+          }
+        }
+      }
+    },
+    "切" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切"
+          }
+        }
+      }
+    },
+    "切にしています。上げているバンドがあると、音がつぶれて聞こえることがあります。スピーカーごとの聴き比べのときに使います。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turned off. When bands are boosted, the sound may be squashed. Use this when comparing speakers."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切にしています。上げているバンドがあると、音がつぶれて聞こえることがあります。スピーカーごとの聴き比べのときに使います。"
+          }
+        }
+      }
+    },
+    "切り替えると、変更は消えます。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you switch, the changes will be lost."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切り替えると、変更は消えます。"
+          }
+        }
+      }
+    },
+    "切り替えると、変更は消えます。残したいときは、キャンセルして、イコライザーのウィンドウで「保存」か「別名で保存」をしてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you switch, the changes will be lost. To keep them, click Cancel, then use Save or Save As in the Equalizer window."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切り替えると、変更は消えます。残したいときは、キャンセルして、イコライザーのウィンドウで「保存」か「別名で保存」をしてください。"
+          }
+        }
+      }
+    },
+    "切り替えると、変更は消えます。残したいときは、キャンセルして、イコライザーのウィンドウで「別名で保存」をしてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you switch, the changes will be lost. To keep them, click Cancel, then use Save As in the Equalizer window."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切り替えると、変更は消えます。残したいときは、キャンセルして、イコライザーのウィンドウで「別名で保存」をしてください。"
+          }
+        }
+      }
+    },
+    "切る" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turn Off"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切る"
+          }
+        }
+      }
+    },
+    "別名で保存" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save As"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "別名で保存"
+          }
+        }
+      }
+    },
+    "別名で保存…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save As…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "別名で保存…"
+          }
+        }
+      }
+    },
+    "削除" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
+        }
+      }
+    },
+    "削除…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除…"
+          }
+        }
+      }
+    },
+    "削除すると、元に戻せません。\n削除したあとは「フラット」に切り替わり、イコライザーはすべて 0 dB になります。音を下げる設定だったときは、音が大きくなります。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This can’t be undone.\nAfter deleting, the app switches to “Flat” and all equalizer bands become 0 dB. If the preset lowered the sound, it will get louder."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除すると、元に戻せません。\n削除したあとは「フラット」に切り替わり、イコライザーはすべて 0 dB になります。音を下げる設定だったときは、音が大きくなります。"
+          }
+        }
+      }
+    },
+    "削除できませんでした" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t Delete"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除できませんでした"
+          }
+        }
+      }
+    },
+    "加工していないので、分かりません" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown (audio isn’t being processed)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加工していないので、分かりません"
+          }
+        }
+      }
+    },
+    "取り出した音の形式(%@)には対応していません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The captured audio format (%@) isn’t supported."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取り出した音の形式(%@)には対応していません。"
+          }
+        }
+      }
+    },
+    "取り出せていない可能性があります(許可がないかもしれません)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Possibly not capturing (permission may be missing)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取り出せていない可能性があります(許可がないかもしれません)"
+          }
+        }
+      }
+    },
+    "取り出せています(許可されています)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capturing (permission granted)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取り出せています(許可されています)"
+          }
+        }
+      }
+    },
+    "名前の変更" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rename"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前の変更"
+          }
+        }
+      }
+    },
+    "名前の変更…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rename…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前の変更…"
+          }
+        }
+      }
+    },
+    "名前は %lld 文字までです。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Names can be up to %lld characters long."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前は %lld 文字までです。"
+          }
+        }
+      }
+    },
+    "増幅した分だけ、全体を自動で下げる" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatically lower the overall volume by the boost"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "増幅した分だけ、全体を自動で下げる"
+          }
+        }
+      }
+    },
+    "変更" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rename"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更"
+          }
+        }
+      }
+    },
+    "変更を戻す" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revert Changes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更を戻す"
+          }
+        }
+      }
+    },
+    "変更を捨てて切り替える" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discard Changes and Switch"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更を捨てて切り替える"
+          }
+        }
+      }
+    },
+    "整数" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "integer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整数"
+          }
+        }
+      }
+    },
+    "書き出されるのは、保存してある値です。いまのスライダーの値を書き出したいときは、キャンセルして、先に「保存」か「別名で保存」をしてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The saved values will be exported. To export the current slider values, click Cancel and use Save or Save As first."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出されるのは、保存してある値です。いまのスライダーの値を書き出したいときは、キャンセルして、先に「保存」か「別名で保存」をしてください。"
+          }
+        }
+      }
+    },
+    "書き出し…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出し…"
+          }
+        }
+      }
+    },
+    "書き出したプリセットのファイルを選んでください。いまの一覧に足します。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose an exported presets file. Its presets will be added to the current list."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出したプリセットのファイルを選んでください。いまの一覧に足します。"
+          }
+        }
+      }
+    },
+    "書き出せませんでした" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t Export"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出せませんでした"
+          }
+        }
+      }
+    },
+    "有効" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有効"
+          }
+        }
+      }
+    },
+    "浮動小数点" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "floating point"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浮動小数点"
+          }
+        }
+      }
+    },
+    "消音" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mute"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消音"
+          }
+        }
+      }
+    },
+    "消音: 入(押すと戻す)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mute: On (click to unmute)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消音: 入(押すと戻す)"
+          }
+        }
+      }
+    },
+    "消音: 切(押すと音を消す)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mute: Off (click to mute)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消音: 切(押すと音を消す)"
+          }
+        }
+      }
+    },
+    "消音中" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muted"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消音中"
+          }
+        }
+      }
+    },
+    "無効" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無効"
+          }
+        }
+      }
+    },
+    "画面の言語" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display language"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面の言語"
+          }
+        }
+      }
+    },
+    "登録できませんでした。%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t turn on opening at login. %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登録できませんでした。%@"
+          }
+        }
+      }
+    },
+    "終了" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "終了"
+          }
+        }
+      }
+    },
+    "自分のプロセスの取得" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "getting this app’s process"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分のプロセスの取得"
+          }
+        }
+      }
+    },
+    "自分のプロセスを対象から外せないので、開始しません(音が循環するおそれがあるため)。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not starting, because the app can’t exclude its own process (the sound could loop back)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分のプロセスを対象から外せないので、開始しません(音が循環するおそれがあるため)。"
+          }
+        }
+      }
+    },
+    "見つかりません" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not found"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見つかりません"
+          }
+        }
+      }
+    },
+    "解除できませんでした。%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t turn off opening at login. %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解除できませんでした。%@"
+          }
+        }
+      }
+    },
+    "言語" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "言語"
+          }
+        }
+      }
+    },
+    "設定" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        }
+      }
+    },
+    "設定を保存できませんでした。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t save settings."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定を保存できませんでした。"
+          }
+        }
+      }
+    },
+    "設定を開く" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Settings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定を開く"
+          }
+        }
+      }
+    },
+    "許可されています" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allowed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "許可されています"
+          }
+        }
+      }
+    },
+    "許可されていません" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not allowed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "許可されていません"
+          }
+        }
+      }
+    },
+    "許可はありますが、キーを受け取れませんでした。アプリを起動し直してください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allowed, but the keys couldn’t be received. Restart the app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "許可はありますが、キーを受け取れませんでした。アプリを起動し直してください。"
+          }
+        }
+      }
+    },
+    "許可を求める…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request Permission…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "許可を求める…"
+          }
+        }
+      }
+    },
+    "読み込み…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込み…"
+          }
+        }
+      }
+    },
+    "読み込みました" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imported"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込みました"
+          }
+        }
+      }
+    },
+    "読み込みましたが、ファイルに保存できませんでした" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imported, but couldn’t save to the file"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込みましたが、ファイルに保存できませんでした"
+          }
+        }
+      }
+    },
+    "読み込みませんでした" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing Imported"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込みませんでした"
+          }
+        }
+      }
+    },
+    "読み込めませんでした" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t Import"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込めませんでした"
+          }
+        }
+      }
+    },
+    "起動" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startup"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "起動"
+          }
+        }
+      }
+    },
+    "閉じる" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
+          }
+        }
+      }
+    },
+    "開始" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "starting"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始"
+          }
+        }
+      }
+    },
+    "開始(すでに動いている)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "starting (already running)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始(すでに動いている)"
+          }
+        }
+      }
+    },
+    "集約装置の作成" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "creating the aggregate device"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "集約装置の作成"
+          }
+        }
+      }
+    },
+    "音がつぶれないよう、全体を %@ dB 下げています。小さくなった分は、macOS の音量で上げてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lowering the overall volume by %@ dB so the sound isn’t squashed. Use the macOS volume to make up the difference."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音がつぶれないよう、全体を %@ dB 下げています。小さくなった分は、macOS の音量で上げてください。"
+          }
+        }
+      }
+    },
+    "音の取り出し" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sound capture"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音の取り出し"
+          }
+        }
+      }
+    },
+    "音は、加工なしの最大音量に戻ります。先に、スピーカー側の音量を下げてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The sound will return to full volume without processing. Lower the volume on your speakers first."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音は、加工なしの最大音量に戻ります。先に、スピーカー側の音量を下げてください。"
+          }
+        }
+      }
+    },
+    "音を取り出せていません" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Can’t Capture Sound"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音を取り出せていません"
+          }
+        }
+      }
+    },
+    "音を取り出せていません。「システム音声の録音」の許可がない可能性があります。許可がないと、音量を変えられません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Can’t capture sound. The app may not have permission for system audio recording. Without it, the app can’t change the volume."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音を取り出せていません。「システム音声の録音」の許可がない可能性があります。許可がないと、音量を変えられません。"
+          }
+        }
+      }
+    },
+    "音声の加工" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio processing"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声の加工"
+          }
+        }
+      }
+    },
+    "音声の加工: 入(押すと切る。音は加工なしの最大音量に戻る)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio processing: On (click to turn off; sound returns to full volume without processing)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声の加工: 入(押すと切る。音は加工なしの最大音量に戻る)"
+          }
+        }
+      }
+    },
+    "音声の加工: 切(押すと入れる)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio processing: Off (click to turn on)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声の加工: 切(押すと入れる)"
+          }
+        }
+      }
+    },
+    "音声の加工が止まっています。元の音が最大音量で出ているおそれがあります。スピーカー側の音量を下げてから、「音声の加工」を入れ直してください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio processing has stopped. The original sound may be playing at full volume. Lower the volume on your speakers, then turn audio processing off and on again."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声の加工が止まっています。元の音が最大音量で出ているおそれがあります。スピーカー側の音量を下げてから、「音声の加工」を入れ直してください。"
+          }
+        }
+      }
+    },
+    "音声の加工は切です。音は、加工なしの元の音量で出ています。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio processing is off. Sound is playing at its original volume without processing."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声の加工は切です。音は、加工なしの元の音量で出ています。"
+          }
+        }
+      }
+    },
+    "音声の加工を切りますか?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turn off audio processing?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声の加工を切りますか?"
+          }
+        }
+      }
+    },
+    "音声を加工していないので、下げていません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not lowering the volume, because audio isn’t being processed."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声を加工していないので、下げていません。"
+          }
+        }
+      }
+    },
+    "音声を加工していません。%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio isn’t being processed. %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声を加工していません。%@"
+          }
+        }
+      }
+    },
+    "音声を加工していません。値は変えられますが、音には反映されません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio isn’t being processed. You can change the values, but they won’t affect the sound."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声を加工していません。値は変えられますが、音には反映されません。"
+          }
+        }
+      }
+    },
+    "音量" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量"
+          }
+        }
+      }
+    },
+    "音量 %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量 %lld"
+          }
+        }
+      }
+    },
+    "音量(消音の間は動かせない。消音のボタンで戻す)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume (can’t be changed while muted; unmute with the mute button)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量(消音の間は動かせない。消音のボタンで戻す)"
+          }
+        }
+      }
+    },
+    "音量が大きいため、音を抑えています。音がつぶれて聞こえるときは、音量を下げるか、上げているバンドを下げてください。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The sound is being limited because the volume is high. If it sounds squashed, lower the volume or lower the boosted bands."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量が大きいため、音を抑えています。音がつぶれて聞こえるときは、音量を下げるか、上げているバンドを下げてください。"
+          }
+        }
+      }
+    },
+    "音量キー" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume Keys"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量キー"
+          }
+        }
+      }
+    },
+    "音量キーを使わない設定です" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume keys are turned off"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量キーを使わない設定です"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

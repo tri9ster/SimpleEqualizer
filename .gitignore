@@ -1,0 +1,20 @@
+# Xcode の生成物と個人設定
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# アプリの識別子と署名の設定(個人の情報を含む。見本は Signing.xcconfig.example)
+Config/Signing.xcconfig
+
+# Swift パッケージ(Core/)のビルドの生成物
+.build/
+
+# macOS が作るフォルダの情報
+.DS_Store
+
+# 開発者個人のフォルダ(要望、メモ、TODO。公開しない。中身は private/README.md)
+private/
+
+# ホームページをまとめたもの(tools/build-site.sh _site。GitHub Actions が使う)
+_site/

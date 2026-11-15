@@ -1,0 +1,102 @@
+{
+  "sourceLanguage" : "ja",
+  "strings" : {
+    "コールバックとの接続" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "connecting to the callback"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コールバックとの接続"
+          }
+        }
+      }
+    },
+    "入力の設定" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "setting up the input"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入力の設定"
+          }
+        }
+      }
+    },
+    "手動レンダリングへの切り替え" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "switching to manual rendering"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手動レンダリングへの切り替え"
+          }
+        }
+      }
+    },
+    "部品の接続と開始" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "connecting and starting the components"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "部品の接続と開始"
+          }
+        }
+      }
+    },
+    "音を加工する部品が、この形式(%@)に対応していません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The audio processing components don’t support this format (%@)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音を加工する部品が、この形式(%@)に対応していません。"
+          }
+        }
+      }
+    },
+    "音を加工する部品の準備(%@)に失敗しました。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t prepare the audio processing components (%@)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音を加工する部品の準備(%@)に失敗しました。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

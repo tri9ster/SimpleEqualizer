@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SimpleEqualizer</title>
+    <meta name="description" content="A menu bar app for macOS that controls the volume for outputs whose volume macOS can't change, and adds a 10-band equalizer.">
+    <link rel="alternate" hreflang="en" href="https://tri9ster.github.io/SimpleEqualizer/">
+    <link rel="alternate" hreflang="ja" href="https://tri9ster.github.io/SimpleEqualizer/ja/">
+    <link rel="alternate" hreflang="x-default" href="https://tri9ster.github.io/SimpleEqualizer/">
+    <link rel="icon" href="assets/readme/app-icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="topbar" aria-label="Language">
+            <span aria-current="page">English</span>
+            <a href="ja/" hreflang="ja" lang="ja">日本語</a>
+        </nav>
+
+        <header class="hero">
+            <img class="icon" src="assets/readme/app-icon.svg" alt="">
+            <h1>SimpleEqualizer</h1>
+            <p class="lead">Volume control and a 10-band equalizer for Mac outputs whose volume macOS can't change.</p>
+            <div class="actions">
+                <a class="button primary" href="https://github.com/tri9ster/SimpleEqualizer/releases/latest">Download</a>
+                <a class="button" href="https://github.com/tri9ster/SimpleEqualizer">View on GitHub</a>
+            </div>
+            <p class="requirement">macOS 27 or later · Mac with Apple silicon · Free (MIT License)</p>
+        </header>
+
+        <img class="screenshot" src="assets/main_window.png" width="1980" height="1072" alt="The Equalizer window with 10 band sliders, and the menu bar popup with the output device, volume, loudness, and preset.">
+
+        <section>
+            <h2>What it does</h2>
+            <p>
+                When you send sound from your Mac to speakers through an optical digital output (USB SPDIF Adapter) or similar,
+                macOS can't change the volume, and the speakers play at full volume.
+                SimpleEqualizer is a menu bar app that controls the volume in the app itself. It also adds an equalizer.
+            </p>
+            <img class="figure" src="assets/readme/overview.en.svg" width="800" height="416" alt="Without the app, macOS can't change the volume, and the speakers play at full volume. With SimpleEqualizer, the app changes the volume and adds an equalizer.">
+            <ul class="features">
+                <li><strong>Volume and mute</strong><span>Change the volume from the menu bar popup. It is remembered for each output.</span></li>
+                <li><strong>Volume keys</strong><span>Use the keyboard volume keys (up, down, mute) as usual.</span></li>
+                <li><strong>10-band equalizer</strong><span>31 Hz to 16 kHz, −10 to +10 dB in 0.5 dB steps.</span></li>
+                <li><strong>Loudness</strong><span>Boosts the bass and treble more as you lower the volume, so quiet sound stays full.</span></li>
+                <li><strong>Presets</strong><span>Save equalizer settings by name, switch between them, and export or import them.</span></li>
+                <li><strong>English and Japanese</strong><span>The app's screens are available in both languages.</span></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Before you start</h2>
+            <div class="warning">
+                <p><strong>Turn down the volume on your speakers before you open the app and before you quit it.</strong></p>
+                <p>
+                    The app lowers the volume only while it is running.
+                    When you quit the app, turn off "Audio processing", or the app crashes, the sound returns to full volume without processing.
+                    The volume starts at 100 (the original volume) the first time. Lower it in the popup after opening the app.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Installation</h2>
+            <ol>
+                <li>Download <code>SimpleEqualizer-&lt;version&gt;.dmg</code> from <a href="https://github.com/tri9ster/SimpleEqualizer/releases/latest">Releases</a> and open it.</li>
+                <li>Drag SimpleEqualizer to the Applications folder.</li>
+            </ol>
+
+            <h3>Opening it for the first time</h3>
+            <p>
+                This app is not notarized by Apple (the author is not a member of Apple's paid Developer Program).
+                macOS blocks it the first time you open it and each time you install a new version. Open it as follows.
+            </p>
+            <ol>
+                <li>Double-click SimpleEqualizer in the Applications folder.</li>
+                <li>When you see '"SimpleEqualizer.app" Not Opened', click "Done" (do not click "Move to Trash").</li>
+                <li>Open System Settings and choose "Privacy &amp; Security".</li>
+                <li>
+                    Near the bottom, in the "Security" section, you will see '"SimpleEqualizer.app" was blocked to protect your Mac.'
+                    Click "Open Anyway" next to it and enter your Mac password.
+                </li>
+                <li>If macOS asks again, click "Open Anyway".</li>
+            </ol>
+            <img class="figure" src="assets/readme/privacy-security.en.svg" width="560" height="350" alt="System Settings. Choose Privacy &amp; Security in the sidebar (step 3), then click Open Anyway in the Security section (step 4).">
+
+            <h3>Permissions</h3>
+            <ul>
+                <li><strong>System Audio Recording</strong>: needed to process the sound. macOS asks for it the first time you open the app. Allow it.</li>
+                <li><strong>Accessibility</strong>: needed to use the keyboard volume keys.</li>
+            </ul>
+            <img class="figure" src="assets/readme/volume-keys.svg" width="360" height="138" alt="The mute (F10), volume down (F11), and volume up (F12) keys on the top row of the keyboard">
+
+            <p class="note">
+                For how to use the popup, the equalizer, presets, and settings, see the
+                <a href="https://github.com/tri9ster/SimpleEqualizer#readme">README</a>.
+            </p>
+        </section>
+
+        <section class="disclaimer">
+            <h2>Disclaimer</h2>
+            <ul>
+                <li>The author is not liable for any damage resulting from the use of this app.</li>
+                <li>A bug or a mistake in use can cause loud sound. To protect your speakers and your hearing, keep the volume on your speakers low.</li>
+                <li>This app comes with no warranty that it works or that it fits your purpose.</li>
+                <li>Whether to open the app with "Open Anyway" is your own decision. The source code is public.</li>
+                <li>Answers to questions, bug fixes, and support for new versions of macOS are not promised. Distribution may stop without notice.</li>
+                <li>This app is made by an individual and is not affiliated with Apple Inc. Apple, Mac, and macOS are trademarks of Apple Inc.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a href="https://github.com/tri9ster/SimpleEqualizer">Source code</a></li>
+                <li><a href="https://github.com/tri9ster/SimpleEqualizer#readme">README</a></li>
+                <li><a href="https://github.com/tri9ster/SimpleEqualizer/releases">Releases</a></li>
+                <li><a href="https://github.com/tri9ster/SimpleEqualizer/blob/main/LICENSE">MIT License</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
