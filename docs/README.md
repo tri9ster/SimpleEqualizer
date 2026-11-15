@@ -21,8 +21,6 @@
 | [research/Distribution_Signing.md](research/Distribution_Signing.md) | 登録なしでの配布と署名の調査(署名の方式、許可が残るか、開くときの警告、識別子) |
 | [research/OutputDevices_Survey.md](research/OutputDevices_Survey.md) | 出力先まわりの調査(この Mac の出力先、音量を変えられるかの見分け方、切り替えのときに起きること) |
 | [tickets/](tickets/) | 大きな更新のチケット（`YYYYMMDD_<テーマ>/`） |
-| [tickets/20261018_distribution/](tickets/20261018_distribution/) | GitHub での配布のチケット(9件) |
-| [tickets/20261108_homepage/](tickets/20261108_homepage/) | GitHub Pages のホームページのチケット(5件) |
 | [archive/](archive/) | 終わった計画・古い資料 |
 | [archive/20261012_prototype/](archive/20261012_prototype/) | 試作の音声のコード(Swift だけで書いたもの。ビルドの対象外) |
 | [archive/tickets/](archive/tickets/) | 終わったチケット(完了したもの、取りやめたもの) |
@@ -33,6 +31,8 @@
 | [archive/tickets/20261013_stage5-finishing/](archive/tickets/20261013_stage5-finishing/) | 段階5(仕上げ)のチケット(8件) |
 | [archive/tickets/20261107_popup-confirm/](archive/tickets/20261107_popup-confirm/) | ポップアップの中の確かめる画面のチケット(4件) |
 | [archive/tickets/20261107_quit-confirm/](archive/tickets/20261107_quit-confirm/) | 終了するときの確かめの条件のチケット(3件。取りやめ) |
+| [archive/tickets/20261018_distribution/](archive/tickets/20261018_distribution/) | GitHub での配布のチケット(9件) |
+| [archive/tickets/20261108_homepage/](archive/tickets/20261108_homepage/) | GitHub Pages のホームページのチケット(5件) |
 | [archive/20261016_specification_v0.30.md](archive/20261016_specification_v0.30.md) | 清書する前の仕様書(版 0.30 の草案。決めるまでの経過と、途中の変更履歴) |
 
 ## 使い方
